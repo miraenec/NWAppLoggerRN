@@ -1,0 +1,2 @@
+# NWAppLoggerRN
+NWAppLogger ReactNative SDK
