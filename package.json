@@ -1,0 +1,51 @@
+{
+  "name": "nwapplogger-react-native-sdk",
+  "version": "0.2.1",
+  "description": "NWAppLogger SDK for ReactNative",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "keywords": [
+    "nwapplogger",
+    "ios",
+    "aos",
+    "sdk"
+  ],
+  "author": "nextweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hlkim/NWAppLoggerRN/issues"
+  },
+  "homepage": "https://github.com/hlkim/NWAppLoggerRN#readme",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "^0.68.2"
+  },
+  "peerDependencies": {
+    "react-native": "^0.68.2"
+  },
+  "devDependencies": {
+    "react-native": "^0.68.2"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNReactNativeNwAppLoggerPackage()"
+    },
+    "ios": {
+      "sharedLibraries": [
+        "libz"
+      ]
+    }
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
